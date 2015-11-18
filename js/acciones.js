@@ -13,7 +13,7 @@ function consulta()
 
 $(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
-	$("#btnconsulta").on("tap" ,function(){
+	$("#btnconsulta").on("tap", function() {
 		alert("preguntando...");
 		consulta();
 }); 
